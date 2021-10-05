@@ -1,0 +1,119 @@
+header {
+  background-image: url("opp.jpg");
+  padding: 5px;
+  position: relative;
+}
+#headerParent {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 110px;
+}
+.headersize {
+  height: 85px;
+}
+#logo {
+  position: absolute;
+  left: 0;
+}
+#entrance {
+  position: absolute;
+  right: 0;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1c400;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  background-color: #19703e;
+}
+
+/* main container */
+#main {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+/* left item */
+#ac {
+  border-style: inset;
+  border-color: green;
+  border-radius: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* mid item */
+#de {
+  border-style: inset;
+  border-color: green;
+  border-radius: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* right item */
+#inv {
+  border-style: inset;
+  border-color: green;
+  border-radius: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-image: url("coat.png");
+}
+#inv:hover {
+  background-color: darkgreen;
+  color: white;
+  font-size: x-large;
+  border-style: inset;
+  border-color: yellow;
+  border-radius: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#de:hover {
+  background-color: darkgreen;
+  color: white;
+  font-size: x-large;
+  border-style: inset;
+  border-color: yellow;
+  border-radius: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 20%;
+}
+
+#ac:hover {
+  background-color: darkgreen;
+  color: white;
+  font-size: x-large;
+  border-style: inset;
+  border-color: yellow;
+  border-radius: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
